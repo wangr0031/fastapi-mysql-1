@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi = "*"
+sqlmodel = "*"
+pydantic = "*"
+pymysql = "*"
+
+[dev-packages]
+black = "*"
+pre-commit = "*"
+requests = "*"
+pytest = "*"
+coverage = "*"
+sqlalchemy-utils = "*"
+pytest-mock = "*"
+
+[requires]
+python_version = "3.9"
